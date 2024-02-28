@@ -1,9 +1,10 @@
-# 2a_Stop_and_Wait_Protocol
+![Screenshot 2024-02-28 142234](https://github.com/Bhagath118/2a_Stop_and_Wait_Protocol/assets/147473779/772ce08e-9c35-404a-8f74-61d8969c6845)# 2a_Stop_and_Wait_Protocol
 ## AIM 
 To write a python program to perform stop and wait protocol
 ## ALGORITHM
 1. Start the program.
 2. Get the frame size from the user
+
 3. To create the frame based on the user request.
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client
@@ -35,14 +36,16 @@ s.connect(('localhost',8000))
 while True:
  print(s.recv(1024).decode())
  s.send("Acknowledgement Recived".encode())
+```
 
 ## OUTPUT
 ## client:
-![Screenshot 2024-02-28 142234](https://github.com/Bhagath118/2a_Stop_and_Wait_Protocol/assets/147473779/2246238f-e658-4908-b3dd-589bc1c0f6f2)
+![Screenshot 2024-02-28 142234](https://github.com/Bhagath118/2a_Stop_and_Wait_Protocol/assets/147473779/574edc48-8425-4b30-a1cb-75b24d1d3ad9)
+
 
 ## server:
-![Screenshot 2024-02-28 142311](https://github.com/Bhagath118/2a_Stop_and_Wait_Protocol/assets/147473779/42a6b4bf-2628-4596-a367-ddadce02f3f7)
 
+![Screenshot 2024-02-28 142311](https://github.com/Bhagath118/2a_Stop_and_Wait_Protocol/assets/147473779/76ba0102-7d22-4426-ae5f-1cf506472bdd)
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
